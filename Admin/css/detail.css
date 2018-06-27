@@ -1,0 +1,201 @@
+body{
+    font-family: "microsoft yahei", Arial,Helvetica, sans-serif,"Helvetica Neue";
+    color: #69747d;
+    margin: 0;
+    padding: 0;
+}
+.detail tr{
+    width: 50%;
+    padding: 0 80px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+}
+.detail tr:nth-child(4n+1){
+     background: #ffffff;
+ }
+.detail tr:nth-child(4n+2){
+    background: #ffffff;
+}
+.detail tr:nth-child(4n+3){
+    background: #f5f5f5;
+}
+.detail tr:nth-child(4n+4){
+    background: #f5f5f5;
+}
+
+.detail tr td:first-child{
+    width: 80px;
+}
+.detail td{
+    height: 45px;
+    text-align: center;
+}
+td input{
+    width: 166px;
+    height: 22px;
+}
+td input[type="radio"]{
+    width: 50px;
+}
+.detail select{
+    width: 172px;
+    height: 30px;
+}
+
+.more {
+    display: none;
+    padding: 20px 0;
+}
+.more tr{
+    margin:0 auto;
+}
+.more tr td{
+    padding: 5px 15px;
+}
+.more tr:nth-child(odd){
+    background: #fff;
+}
+.more tr:nth-child(even){
+    background: #f9f9f9;
+}
+/*上传按钮*/
+.upload{
+    width: 60px;
+    padding: 0 15px;
+    margin: 0 20px;
+    border: 1px solid #e1e1e1;
+    background: #009f95;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/*单选框*/
+.radiobtn input{
+    width: 40px;
+    height: 22px;
+}
+
+.text100{
+    width: 230px;
+    height: 89px;
+}
+.text200{
+    width: 230px;
+    height: 120px;
+}
+.text500{
+    width: 230px;
+    height: 200px;
+}
+
+/*4:3比例的预览图*/
+.flag-img{
+    padding: 10px 0;
+    width: 100px;
+    height: 75px;
+}
+/*16:9比例的预览图*/
+.long-img{
+    padding: 10px 0;
+    width: 133px;
+    height: 75px;
+}
+
+.submit_btn{
+    text-align: center;
+}
+.submit_btn input{
+    width: 80px;
+    padding: 0 20px;
+    margin: 20px 0;
+    border: 1px solid #e1e1e1;
+    background: #009f95;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.submit_btn input:hover{
+    background: #048e85;
+}
+
+/* 成功案例 */
+.content td{
+    text-align: center;
+}
+.content td .ke-container{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

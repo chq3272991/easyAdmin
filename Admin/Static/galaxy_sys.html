@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <title>数据库首页</title>
+    <link rel="shortcut icon" href="__Admin__/img/icon.png">
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="__Admin__/css/base.css" />
+    <link rel="stylesheet" href="__Admin__/css/index.css" />
+    <link rel="stylesheet" href="__Admin__/css/tableBase.css" />
+</head>
+<body class="fixed-sidebar full-height-layout gray-bg">
+<div id="wrapper">
+    <include file="Admin/template/leftmenu.html"/>
+    <!--右侧部分开始-->
+    <div id="page-wrapper">
+        <iframe id="R_iframe" width="100%" src="showlist?model=infolist&pageNum=5" scrolling="no" frameborder="0" seamless ></iframe>
+    </div>
+    <!--右侧部分结束-->
+</div>
+
+<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="__Admin__/js/tools/jquery.cookie.js"></script>
+<script src="__Admin__/temps/layer/layer.js"></script>
+<script src="__Admin__/js/init.js"></script>
+<script src="__Admin__/js/galaxy_sys.js" defer=true></script>
+</body>
+</html>

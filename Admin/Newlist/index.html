@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+<volist name="colname" id="vo">
+    <h4>{$vo}</h4>
+</volist>
+
+<ul>
+    <volist name="result" id="vo">
+        <li>{$vo.id}</li>
+        <li>{$vo.mainid}</li>
+        <li>{$vo.classid}</li>
+        <li>{$vo.title}</li>
+        <li>{$vo.picurl}</li>
+        <li>{$vo.posttime|date="Y-m-d h:m",###}</li>
+        <li>{$vo.author}</li>
+    </volist>
+</ul>
+
+</body>
+</html>

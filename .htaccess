@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(easyAdmin.com)(:80)? [NC]
+RewriteRule ^(.*) http://admin.easyAdmin.com/$1 [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^(.*)$ index.php/$1 [QSA,PT]  #默认入口文件（要兼容其他非控制器下的文件，建议根据控制器来定义）
+
+
+##############################################(PC\H5\Admin)控制器入口配置##################################################
+##首页             serverName                       默认Home/static/Index
+##关于我们         serverName/aboutus.html   默认Home/static/aboutus.html
+#去除url上面的index.php/Home,模拟一级菜单(根据不同的控制器定义定位到不同的入口文件和模块)
+#eg: serverName/Nation/index.html ==> serverName/index.php/Home/Nation/index.html
+RewriteRule (^index(.*))$ index.php/$1 [QSA,PT,NC]
+RewriteRule (^Login(.*))$ index.php/$1 [QSA,PT,NC] #admin
+RewriteRule (^Static(.*))$ index.php/$1 [QSA,PT,NC] #admin
+######################################################################################################################
+
+</IfModule>

@@ -1,0 +1,198 @@
+.row{
+    padding: 20px;
+}
+.ibox {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #dee5e7;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.ibox-title {
+    height: 41px;
+    border-color: #edf1f2;
+    background-color: #f6f8f8;
+    color: #333;
+    font-weight: 700;
+    border-radius: 2px 2px 0 0;
+    padding: 15px 15px 3px 15px;
+    border-bottom: 1px solid transparent;
+    display: block;
+    clear: both;
+}
+.ibox-title h5 {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 0 7px;
+    padding: 0;
+    text-overflow: ellipsis;
+    float: left;
+}
+.ibox-tools {
+    display: inline-block;
+    float: right;
+    margin-top: 0;
+    position: relative;
+    padding: 0;
+}
+.ibox-tools a {
+    cursor: pointer;
+    margin-left: 5px;
+    color: #c4c4c4;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa-wrench:before {
+    content: "\f0ad";
+}
+.ibox-content {
+    clear: both;
+    background-color: #ffffff;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-color: #e7eaec;
+    -webkit-border-image: none;
+    -o-border-image: none;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0px;
+}
+.input-s-sm {
+    width: 120px;
+}
+.inline {
+    display: inline-block !important;
+}
+.m-b-xs {
+    margin-bottom: 5px;
+}
+.form-control,
+.single-line {
+    display: block;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    padding: 2px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #cfdadd;
+    box-shadow: none;
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.btn-primary {
+    color: #ffffff !important;
+    background-color: #7266ba;
+    border-color: #7266ba;
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    border-top: 1px solid #e7eaec;
+    border-bottom: 1px solid #ddd;
+    line-height: 1.42857;
+    padding: 8px;
+    vertical-align: middle;
+}
+.table > thead > tr > th {
+    border-bottom: 1px solid #ddd;
+    vertical-align: bottom;
+}
+input[type=checkbox] {
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+td a i{
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+#table_list table{
+    display: none;
+}
+#table_list .on{
+    display: table;
+}
+/* 显示/隐藏部分 */
+.detail_table{
+    display: table;
+}
+.detail_table div{
+    display: table-row;
+    line-height: 25px;
+}
+.detail_table div p{
+    display: table-cell;
+}
+.detail_table div p span{
+    font-weight: bold;
+}
+.tr_content{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
